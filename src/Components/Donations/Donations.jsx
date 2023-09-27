@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
+
 const Donations = ({donation}) => {
 
     const { id, image, category, title, card_bg, category_bg, text_color } =donation || {};
