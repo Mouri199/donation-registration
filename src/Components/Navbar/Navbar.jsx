@@ -6,7 +6,6 @@ const Navbar = () => {
 
     const[open,setOpen] =useState(false)
 
-
     return (
         <div>
             <section className="flex shadow-lg justify-between items-center px-16 py-5">
