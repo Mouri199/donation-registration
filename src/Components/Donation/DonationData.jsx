@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
 const DonationData = ({ card }) => {
 
-
     return (
         <div className="w-[425px] lg:w-[650px] lg:h-[230px]" style={{backgroundColor:card.card_bg}}>
            <div className="flex items-center">
