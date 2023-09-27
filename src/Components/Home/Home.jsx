@@ -10,6 +10,7 @@ const Home = () => {
     const [searchData,setSearchData] = useState(donations);
     const [changeSearch,setChangeSearch] = useState(donations);
 
+    
     const handleSearch=()=>{
         const searchField = document.getElementById('searchField')
         const searchText = searchField.value;
