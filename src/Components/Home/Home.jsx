@@ -5,7 +5,6 @@ import { useState } from "react";
 
 
 const Home = () => {
-
     const donations = useLoaderData();
 
     const [searchData,setSearchData] = useState(donations);
