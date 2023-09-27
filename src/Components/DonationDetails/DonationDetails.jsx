@@ -4,6 +4,7 @@ import swal from "sweetalert";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
+  
   const param = useParams();
   const donation = donationDetails.find(details => details.id == param.id);
 
